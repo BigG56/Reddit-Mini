@@ -1,0 +1,38 @@
+html {
+  font-size: 16px;
+}
+body {
+  padding: 0;
+  background-color: black;
+  font-size: 1rem;
+  color: rgb(27, 27, 27);
+}
+.App {
+  text-align: left;
+
+}
+a {
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+main {
+  max-width: 1200px;
+  margin: 60px auto 0;
+}
+.error {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.loading {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 640px) {
+  main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

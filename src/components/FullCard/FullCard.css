@@ -1,0 +1,32 @@
+.full-card {
+    padding: 1px 8px;
+}
+.post-content a {
+    color: rgb(0, 102, 204);
+    text-decoration: underline;
+}
+.post-content a:hover {
+    text-decoration: none;
+}
+.icon-action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-radius: var(--radius);
+}
+.icon-action-button:hover {
+    background: var(--color-on-hover);
+  }
+@media only screen and (min-width: 640px) {
+    .full-card {
+        border-radius: 5px;
+        padding: 5px 15px 2px;
+    }
+    .full-card-image img {
+        width: 60%;
+    }
+}
